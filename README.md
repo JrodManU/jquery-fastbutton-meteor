@@ -1,0 +1,1 @@
+I needed to use this https://github.com/x1024/jquery-fastbutton with jQuery in a Meteor project so I packaged it up to make it easier for everyone to use :)
