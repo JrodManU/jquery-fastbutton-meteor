@@ -1,6 +1,6 @@
 Package.describe({
   name: 'jrodmanu:jquery-fastbutton-meteor',
-  version: '0.0.3',
+  version: '0.0.4',
   // Brief, one-line summary of the package.
   summary: 'Removes the 300ms delay from click-related actions in mobile websites.',
   // URL to the Git repository containing the source code for this package.
@@ -12,8 +12,8 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  api.use('jquery','client');
   api.addFiles('jquery-fastbutton-meteor.js', 'client');
+  api.use('jquery');
 });
 
 Package.onTest(function(api) {
